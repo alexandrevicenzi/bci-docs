@@ -1,6 +1,6 @@
 ---
 more:
-  - name: Registry
+  - name: SUSE Registry
     ref: "https://registry.suse.com"
     external: true
     icon: "gdoc_download"
