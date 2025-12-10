@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentations on SLE BCI Documentation</title><link>https://opensource.suse.com/bci-docs/documentation/</link><description>Recent content in Documentations on SLE BCI Documentation</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://opensource.suse.com/bci-docs/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>BCI-Base, BCI-Minimal, BCI-Micro, and BCI-BusyBox</title><link>https://opensource.suse.com/bci-docs/documentation/general-purpose-bci/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://opensource.suse.com/bci-docs/documentation/general-purpose-bci/</guid><description>&lt;div class="paragraph">
+&lt;p>SUSE offers several general-purpose SLE Base Container Images that are
+intended as deployment targets or as foundations for creating customized
+images: BCI-Base, BCI-Minimal, BCI-Micro, and BCI-BusyBox. These images
+share the common SLES base, and none of them ship with a specific
+language or an application stack. All images feature the RPM database
+(even if the specific image does not include the RPM package manager)
+that can be used to verify the provenance of every file in the image.
+Each image includes the SLES certificate bundle, which allows the
+deployed applications to use the system’s certificates to verify TLS
+connections.&lt;/p>
+&lt;/div></description></item><item><title>Frequently Asked Questions</title><link>https://opensource.suse.com/bci-docs/documentation/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://opensource.suse.com/bci-docs/documentation/faq/</guid><description>&lt;div class="sect1">
+&lt;h2 id="_what_are_the_suse_linux_base_container_images">What are the SUSE Linux Base Container Images?&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>SUSE Linux Base Container Images (SUSE Linux BCI) provides a set of container images that are truly open, flexible and secure. Available for immediate use by developers, integrators and operators are container images based on SUSE Linux Enterprise Server (SLES). SUSE Linux BCI includes general-purpose container images, development tools and applications.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_what_are_the_benefits_of_suse_linux_bci">What are the benefits of SUSE Linux BCI?&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="ulist">
+&lt;ul>
+&lt;li>
+&lt;p>Free to Use &amp;amp; Redistribute&lt;/p>
+&lt;div class="ulist">
+&lt;ul>
+&lt;li>
+&lt;p>SUSE Linux BCI containers are completely free and come with an &lt;a href="https://www.suse.com/licensing/eula/#bci">EULA&lt;/a> that enables you to redistribute them freely.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>No subscription required, ideal for development, CI/CD and production without subscription hurdles.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div></description></item><item><title>Language stack SLE Base Container Images</title><link>https://opensource.suse.com/bci-docs/documentation/language-stack-bci/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://opensource.suse.com/bci-docs/documentation/language-stack-bci/</guid><description>&lt;div class="paragraph">
+&lt;p>If you have a working knowledge of containers, you will not have any
+difficulties using SLE BCIs. However, there are certain features that
+set SLE BCIs apart from similar offerings, like images based on Debian
+or Alpine Linux. And understanding the specifics can help you to get the
+most out of SLE BCIs in the shortest time possible.&lt;/p>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_language_stack_sle_bcis">Language stack SLE BCIs&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>Language stack SLE BCI are built on top of BCI-Base. Below is an
+overview of the available language stack SLE BCIs.&lt;/p>
+&lt;/div></description></item><item><title>Why SLE Base Container Images</title><link>https://opensource.suse.com/bci-docs/documentation/why-sle-bci/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://opensource.suse.com/bci-docs/documentation/why-sle-bci/</guid><description>&lt;div class="paragraph">
+&lt;p>SLE BCIs offer a platform for creating SLE-based custom container images
+and containerized applications that can be distributed freely. SLE BCIs
+feature the same predictable enterprise lifecycle as SLES. The &lt;code>SLE_BCI&lt;/code>
+15 SP3 and SP4 repository (which is a subset of the SLE repository)
+gives SLE BCIs access to 4,000 packages available for the AMD64/Intel
+64, AArch64, ppc64le, and s390x architectures. The packages in the
+repository have undergone quality assurance and security audits by SUSE.
+The container images are FIPS-compliant when running on a host in FIPS
+mode. In addition to that, SUSE can provide official support for SLE
+BCIs through SUSE subscription plans.&lt;/p>
+&lt;/div></description></item></channel></rss>

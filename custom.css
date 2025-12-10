@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'SUSE';
+    font-style: normal;
+    font-weight: 100;
+    src: url(/bci-docs/fonts/SUSE-wght.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SUSE';
+    font-style: normal;
+    font-weight: 200;
+    src: url(/bci-docs/fonts/SUSE-wght.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SUSE';
+    font-style: normal;
+    font-weight: 300;
+    src: url(/bci-docs/fonts/SUSE-wght.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SUSE';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/bci-docs/fonts/SUSE-wght.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SUSE';
+    font-style: normal;
+    font-weight: 500;
+    src: url(/bci-docs/fonts/SUSE-wght.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SUSE';
+    font-style: normal;
+    font-weight: 600;
+    src: url(/bci-docs/fonts/SUSE-wght.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SUSE';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/bci-docs/fonts/SUSE-wght.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SUSE';
+    font-style: normal;
+    font-weight: 800;
+    src: url(/bci-docs/fonts/SUSE-wght.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: SUSEMono';
+    font-style: normal;
+    font-weight: 800;
+    src: url(/bci-docs/fonts/SUSEMono-wght.woff2) format("woff2");
+    font-display: swap;
+}
+
+:root,
+:root[color-theme="light"],
+:root[color-theme="dark"] {
+  --code-max-height: 60rem;
+
+  --header-font-family: 'SUSE',Verdana,sans-serif;
+  --body-font-family: 'SUSE',Verdana,sans-serif;
+  --code-font-family: 'SUSEMono', 'DejaVu Sans Mono', 'DejaVuSansMono', 'Menlo', 'Andale Mono', monospace;
+
+  --header-background: #0c322c;
+  --header-font-color: #ffffff;
+
+  --footer-background: #0c322c;
+  --footer-font-color: #ffffff;
+  --footer-link-color: #ffffff;
+  --footer-link-color-visited: #ffffff;
+
+  --link-color: #30ba78;
+  --link-color-visited: #30ba78;
+
+  --button-background: #0c322c;
+  --button-border-color: #0c322c;
+
+  --mark-color: #fe7c3f;
+
+  --code-copy-background: #efefef;
+  --code-accent-color: #efefef;
+  --code-accent-color-lite: #efefef;
+  --code-copy-font-color: #0c322c;
+  --code-copy-border-color: #0c322c;
+  --code-copy-success-color: #30ba78;
+}
+
+:root[color-theme="light"] {
+  --body-background: #ffffff;
+  --body-font-color: #0c322c;
+
+  --code-background: #efefef;
+  --code-font-color: #0c322c;
+
+  --accent-color: #efefef;
+  --accent-color-lite: #ffffff;
+
+  --control-icons: #0c322c;
+
+  --nav-color: #efefef;
+  --nav-font-color: #0c322c;
+
+  --breadcrump-color: #efefef;
+
+  --search-color: var(--accent-color-lite);
+  --search-text-color: var(--body-font-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+      --body-background: #ffffff;
+      --body-font-color: #0c322c;
+
+      --code-background: #efefef;
+      --code-font-color: #0c322c;
+
+      --accent-color: #efefef;
+      --accent-color-lite: #ffffff;
+
+      --control-icons: #0c322c;
+
+      --nav-color: #efefef;
+      --nav-font-color: #0c322c;
+
+      --breadcrump-color: #efefef;
+
+      --search-color: var(--accent-color-lite);
+      --search-text-color: var(--body-font-color);
+  }
+}
+
+:root[color-theme="dark"] {
+  --body-background: #3e3e3e;
+  --body-font-color: #ffffff;
+
+  --code-background: #1d1d1d;
+  --code-font-color: #efefef;
+
+  --accent-color: #6f6f6f;
+  --accent-color-lite: #6f6f6f;
+
+  --control-icons: #ffffff;
+
+  --nav-color: #6f6f6f;
+  --nav-font-color: #efefef;
+
+  --breadcrump-color: #6f6f6f;
+
+  --search-color: #ffffff;
+  --search-text-color: #1d1d1d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+      --body-background: #3e3e3e;
+      --body-font-color: #ffffff;
+
+      --code-background: #1d1d1d;
+      --code-font-color: #efefef;
+
+      --accent-color: #6f6f6f;
+      --accent-color-lite: #6f6f6f;
+
+      --control-icons: #ffffff;
+
+      --nav-color: #6f6f6f;
+      --nav-font-color: #efefef;
+
+      --breadcrump-color: #6f6f6f;
+
+      --search-color: #ffffff;
+      --search-text-color: #1d1d1d;
+  }
+}
+
+.container {
+    max-width: 100rem;
+}
+
+main.container {
+    max-width: 100rem;
+    padding: 0;
+}
+
+.gdoc-nav {
+    background-color: var(--nav-color);
+}
+
+.gdoc-nav section,
+.gdoc-nav div.gdoc-search {
+    margin: 0 2rem;
+}
+
+.gdoc-nav > nav {
+    padding: 2rem 0 0 0;
+    background: var(--nav-color);
+}
+
+.gdoc-nav__entry {
+    color: var(--nav-font-color) !important;
+}
+
+.gdoc-page {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.gdoc-brand img {
+    height: 3rem;
+    width: unset;
+}
+
+.gdoc-page div[itemprop="breadcrumb"] {
+    background: var(--breadcrump-color);
+}
+
+.gdoc-footer a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.gdoc-tabs__control:checked+.gdoc-tabs__label,
+.gdoc-tabs > label:checked {
+  border-bottom: 4px solid var(--link-color);
+}
+
+.gdoc-search input {
+    background: var(--search-color);
+    color: var(--search-text-color);
+}
+
+.gdoc-search svg.gdoc-icon {
+    color: var(--search-text-color);
+}
+
+.gdoc-markdown h1>code,
+.gdoc-markdown h2>code,
+.gdoc-markdown h3>code,
+.gdoc-markdown h4>code,
+.gdoc-markdown h5>code,
+.gdoc-markdown h6>code {
+    border: none;
+    background-color: inherit;
+    font-size: inherit !important;
+    font-family: var(--code-font-family);
+    font-weight: 400;
+}
+
+.gdoc-hint__title {
+    margin-left: 0;
+}
+
+.gdoc-hint__title i.fa {
+    margin-left: -5px;
+}
+
+/* if the code is to long add a scroll */
+code {
+  white-space: pre;
+  overflow-x: auto;
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
