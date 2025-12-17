@@ -17,8 +17,8 @@ main:
   - name: Guides
     ref: "/guides"
     sub:
-      - name: Using SLE BCI
-        ref: "/guides/using-sle-bci"
+      - name: Package Management
+        ref: "/guides/package-management"
       - name: Using with VS Code Development Containers
         ref: "/guides/dev-containers"
       - name: Verify SLE BCI
